@@ -1,3 +1,5 @@
+This is a fork of danger-eslint that adds `--ext .ts,.tsx` so that it can be used in a TypeScript project
+
 [![Gem](https://img.shields.io/gem/v/danger-eslint.svg)](https://rubygems.org/gems/danger-eslint)
 [![Gem](https://img.shields.io/gem/dt/danger-eslint.svg)](https://rubygems.org/gems/danger-eslint)
 [![Gem](https://img.shields.io/gem/dtv/danger-eslint.svg)](https://rubygems.org/gems/danger-eslint)
