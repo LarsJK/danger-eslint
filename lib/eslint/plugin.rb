@@ -75,6 +75,7 @@ module Danger
       command = "#{bin} -f json"
       command << " -c #{config_file}" if config_file
       command << " --ignore-path #{ignore_file}" if ignore_file
+      command << "  --ext .ts,.tsx"
       result = `#{command} #{file}`
       JSON.parse(result)
     end
